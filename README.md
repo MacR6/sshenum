@@ -11,16 +11,23 @@ Paramiko module if you're not using Kali
 
 ### Usage
  -h, --help            show this help message and exit
+ 
   -u USER, --user USER  Username to test
+  
   -i HOST, --host HOST  Input single IP/Hostname or use -H/--host_file for
                         multiple IPs
+
   -P PORT, --port PORT  Leave blank for default ssh port
+
   -p PASSWORD, --password PASSWORD
                         Input user's password or leave blank and enter on
                         command line
+
   -H HOST_FILE, --host_file HOST_FILE
                         List of IPs, each on a new line.
+
   -k PRIVATE_KEY_FILE, --private_key_file PRIVATE_KEY_FILE
                         Input absolute path to private keys
+
   -f, --files           Grab /etc/passwd and /etc/shadow
 
