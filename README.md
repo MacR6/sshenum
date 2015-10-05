@@ -1,5 +1,5 @@
 # sshenum
-sshenum is a tool that will take a username and an IP/Host and attempt to log in and see if the user can sudo to root by trying to 'sudo id'.  It will also attempt to download the /etc/passwd and /etc/shadow file if you tell it to.
+sshenum is a tool that will take a username and an IP/Host and attempt to log in and see if the user can sudo to root by trying to 'sudo id'.  It will also attempt to download the /etc/passwd and /etc/shadow file to a folder named "sshenum" if you tell it to.
 
 This script was written out of necessity during a pen test.  You can give sshenum a single target or a list of hosts to attempt access.  The tool is similar to Hydra for ssh with the additional file grabs.  
 
